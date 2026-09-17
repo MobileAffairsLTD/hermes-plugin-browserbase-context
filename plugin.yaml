@@ -1,0 +1,10 @@
+name: browser-browserbase-context
+version: 1.0.0
+description: >-
+  Browserbase with a persistent Context. Every session is created bound to
+  BROWSERBASE_CONTEXT_ID, so an authenticated login (LinkedIn, etc.) survives
+  across agent runs instead of starting logged out.
+author: Dynamics Mobile
+kind: backend
+provides_browser_providers:
+  - browserbase-context
